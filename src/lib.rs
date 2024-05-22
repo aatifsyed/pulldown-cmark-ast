@@ -1,3 +1,5 @@
+//! An abstract syntax tree for [`pulldown_cmark`].
+
 use pulldown_cmark::{BrokenLinkCallback, CowStr, Event, Options, Parser, Tag, TagEnd};
 use std::{iter, ops::Range};
 pub mod visit_mut;
